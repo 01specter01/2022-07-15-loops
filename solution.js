@@ -16,10 +16,16 @@ let friendName = ["Max", "Alex", "Michael"];
 let familyName = ["Andrea", "Richard", "Georg"];
 let answer = "";
 for (let i = 0; i < friendName.length; i++) {
-    answer = `Hello ${friendName[i]} !`;
-    console.log(`Aufgabe 2: ${answer}`);
+    answer += "Hallo " + friendName[i] + "! ";
+
+    // answer = `Hello ${friendName[i]}!`;
+    // console.log(`Aufgabe 2: ${answer}`);
 }
+console.log(answer);
 
 //3 City Names. Create an array of city names. Loop through the array and add the city names to a string. Examples:
 //[Berlin, Paris, Prague, Rome] ➞ expected output: "Berlin, Paris, Prague, Rome".
 console.log("-----------Aufgabe 3----------------");
+
+let cityNames = [Berlin, Paris, Prague, Rome];
+for (let i = 0; i < cityNames.length; i++) {}
